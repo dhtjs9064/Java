@@ -1,0 +1,15 @@
+package baekJoonString;
+
+import java.util.Scanner;
+import java.util.StringTokenizer;
+
+public class number1152 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String string = sc.nextLine();
+
+        StringTokenizer st = new StringTokenizer(string, " ");
+
+        System.out.println(st.countTokens());
+    }
+}
