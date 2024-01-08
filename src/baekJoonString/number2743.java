@@ -7,10 +7,6 @@ public class number2743 {
         Scanner sc = new Scanner(System.in);
 
         String S = sc.nextLine();
-        int count = 0;
-        for (int i = 0; i < S.length(); i++) {
-            count = i;
-        }
-        System.out.println(count + 1);
+        System.out.println(S.length());
     }
 }
