@@ -11,7 +11,6 @@ public class number2738 {
         int N = Integer.parseInt(st.nextToken());
         int M = Integer.parseInt(st.nextToken());
 
-
         int[][] A = new int[N][M];
         int[][] B = new int[N][M];
 
